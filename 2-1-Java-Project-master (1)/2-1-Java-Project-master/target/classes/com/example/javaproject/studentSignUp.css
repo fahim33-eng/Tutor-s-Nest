@@ -1,0 +1,10 @@
+#signUpBtn {
+    -fx-background-color: #FF5511;
+    -fx-border: none;
+    -fx-color: black;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-cursor: pointer;
+    -fx-border-radius: 25px;
+}

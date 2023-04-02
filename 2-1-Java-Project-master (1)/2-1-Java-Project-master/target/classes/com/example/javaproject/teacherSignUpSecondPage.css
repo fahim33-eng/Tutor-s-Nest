@@ -1,0 +1,24 @@
+#signUpBtn {
+    -fx-background-color: #FF5511;
+    -fx-border: none;
+    -fx-color: black;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-cursor: pointer;
+    -fx-border-radius: 25px;
+}
+
+#salaryRange {
+    -fx-border-width : 0px;
+    -fx-border-color : transparent;
+    -fx-background-color : black;
+    -fx-text-fill : white;
+}
+
+#tuitionArea {
+    -fx-border-width : 0px;
+    -fx-border-color : transparent;
+    -fx-background-color : black;
+    -fx-text-fill : white;
+}

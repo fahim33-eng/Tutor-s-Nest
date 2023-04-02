@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="845.0" prefWidth="1310.0" styleClass="info_layout" stylesheets="@applicationTeacherDashboard.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox prefHeight="845.0" prefWidth="320.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" prefHeight="320.0" prefWidth="100.0" styleClass="profile_layout" stylesheets="@applicationTeacherDashboard.css">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" styleClass="profile_picture">
+                     <image>
+                        <Image url="@images/faiak.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label text="Ahaj Mahhin Faiak" textFill="#e8eded">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Corbel Bold" size="23.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="525.0" prefWidth="303.0">
+               <children>
+                  <Pane layoutX="20.0" layoutY="373.0" prefHeight="125.0" prefWidth="280.0" VBox.vgrow="ALWAYS">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Label prefHeight="23.0" prefWidth="327.0" text="Mobile Phone">
+                     <font>
+                        <Font name="Corbel Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" right="10.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="32.0" prefWidth="298.0" styleClass="info_layout" stylesheets="@applicationTeacherDashboard.css" text="+961 xx-xxx-xxx" textFill="#9a9a9a">
+                     <font>
+                        <Font name="Corbel Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" right="10.0" />
+                     </padding>
+                  </Label>
+                  <Label prefHeight="23.0" prefWidth="297.0" text="Work">
+                     <font>
+                        <Font name="Corbel Bold" size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="10.0" right="10.0" />
+                     </padding>
+                  </Label>
+                  <Label prefHeight="33.0" prefWidth="295.0" text="+961 xx-xxx-xxx" textFill="#9a9a9a">
+                     <font>
+                        <Font name="Corbel Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" right="10.0" />
+                     </padding>
+                  </Label>
+                  <Label prefHeight="23.0" prefWidth="294.0" text="Email">
+                     <font>
+                        <Font name="Corbel Bold" size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="10.0" right="10.0" />
+                     </padding>
+                  </Label>
+                  <Label prefHeight="33.0" prefWidth="291.0" text="azmainfaiak45@gmail.com" textFill="#9a9a9a">
+                     <font>
+                        <Font name="Corbel Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" right="10.0" />
+                     </padding>
+                  </Label>
+                  <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="140.0" styleClass="edit_button" stylesheets="@applicationTeacherDashboard.css" text="Edit" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets bottom="30.0" top="30.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Corbel" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" right="10.0" />
+                     </padding>
+                  </Button>
+                  <Pane prefHeight="106.0" prefWidth="300.0">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Pane>
+               </children>
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+            </VBox>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="990.0" stylesheets="@applicationTeacherDashboard.css">
+               <children>
+                  <Label text="Most Contacted">
+                     <font>
+                        <Font name="Corbel Bold" size="23.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Pane prefHeight="123.0" prefWidth="518.0" styleClass="info_layout" stylesheets="@applicationTeacherDashboard.css" />
+                  <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="140.0" styleClass="edit_button" stylesheets="@applicationTeacherDashboard.css" text="Create Contact" textFill="WHITE">
+                     <font>
+                        <Font name="Corbel" size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" right="10.0" />
+                     </padding>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" styleClass="magnifying_glass_button" stylesheets="@applicationTeacherDashboard.css">
+                     <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/magnifying_glass_icon-removebg.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="32.0" styleClass="magnifying_glass_button" stylesheets="@applicationTeacherDashboard.css">
+                     <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/3dots-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="960.0" spacing="30.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #99d98c;" styleClass="most_contacted_layout" stylesheets="@applicationTeacherDashboard.css" text="Rokon" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Corbel" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #758bfd;" styleClass="most_contacted_layout" stylesheets="@applicationTeacherDashboard.css" text="Zisan" textFill="WHITE">
+                     <font>
+                        <Font name="Corbel" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #f8ad9d;" styleClass="most_contacted_layout" stylesheets="@applicationTeacherDashboard.css" text="Mahib" textFill="WHITE">
+                     <font>
+                        <Font name="Corbel" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #f08080;" styleClass="most_contacted_layout" stylesheets="@applicationTeacherDashboard.css" text="Shakil" textFill="WHITE">
+                     <font>
+                        <Font name="Corbel" size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets left="30.0" />
+               </VBox.margin>
+            </HBox>
+            <Label alignment="CENTER" prefHeight="55.0" prefWidth="133.0" text="Contacts">
+               <font>
+                  <Font name="Corbel Bold" size="23.0" />
+               </font>
+            </Label>
+            <HBox prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <ScrollPane prefHeight="476.0" prefWidth="941.0" styleClass="info_layout" stylesheets="@applicationTeacherDashboard.css">
+                     <content>
+                        <VBox prefHeight="429.0" prefWidth="936.0" styleClass="info_layout" stylesheets="@applicationTeacherDashboard.css">
+                           <children>
+                              <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="954.0" spacing="20.0" styleClass="light-gray-background" stylesheets="@applicationTeacherDashboard.css">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="23.0" prefWidth="51.0" text="A" textFill="#575757">
+                                       <font>
+                                          <Font name="Corbel Bold" size="20.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets left="10.0" />
+                                       </HBox.margin>
+                                       <padding>
+                                          <Insets left="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <Label alignment="CENTER" prefHeight="23.0" prefWidth="150.0" text="Contact Name" textFill="#575757">
+                                       <font>
+                                          <Font name="Corbel Bold" size="20.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets />
+                                       </HBox.margin>
+                                    </Label>
+                                    <Label alignment="CENTER" prefHeight="23.0" prefWidth="183.0" text="Phone Number" textFill="#575757">
+                                       <font>
+                                          <Font name="Corbel Bold" size="20.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets left="20.0" />
+                                       </padding>
+                                    </Label>
+                                    <Label prefHeight="23.0" prefWidth="121.0" text="Email" textFill="#575757">
+                                       <font>
+                                          <Font name="Corbel Bold" size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER" prefHeight="23.0" prefWidth="376.0" text="Actions" textFill="#575757">
+                                       <font>
+                                          <Font name="Corbel Bold" size="20.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets left="20.0" right="5.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="200.0" spacing="10.0">
+                                 <children>
+                                    <ImageView fitHeight="50.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true" styleClass="profile_picture">
+                                       <image>
+                                          <Image url="@images/faiak.jpg" />
+                                       </image>
+                                       <HBox.margin>
+                                          <Insets />
+                                       </HBox.margin>
+                                    </ImageView>
+                                    <Label alignment="CENTER" prefHeight="23.0" prefWidth="120.0" text="Ahaj Mahhin" textFill="#575757">
+                                       <font>
+                                          <Font name="Corbel" size="18.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets right="50.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <Label alignment="CENTER" prefHeight="23.0" prefWidth="145.0" text="+961 xx-xxx-xxx" textFill="#575757">
+                                       <font>
+                                          <Font name="Corbel" size="18.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets right="25.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <Label alignment="CENTER" prefHeight="23.0" prefWidth="211.0" text="azmainfaiak45@gmail.com" textFill="#575757">
+                                       <font>
+                                          <Font name="Corbel" size="18.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets right="30.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="261.0" spacing="10.0">
+                                       <children>
+                                          <Button mnemonicParsing="false" prefHeight="27.0" prefWidth="80.0" style="-fx-background-color: #06d6a0;" styleClass="skill-buttons" stylesheets="@applicationTeacherDashboard.css" text="Button" />
+                                          <Button mnemonicParsing="false" prefHeight="27.0" prefWidth="80.0" style="-fx-background-color: #48cae4;" styleClass="skill-buttons" stylesheets="@applicationTeacherDashboard.css" text="Button" />
+                                          <Button mnemonicParsing="false" prefHeight="27.0" prefWidth="80.0" style="-fx-background-color: ff8fab;" styleClass="skill-buttons" stylesheets="@applicationTeacherDashboard.css" text="Button" />
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets left="10.0" />
+                                 </VBox.margin>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </content>
+                  </ScrollPane>
+                  <VBox prefHeight="476.0" prefWidth="55.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="51.0" prefWidth="58.0" styleClass="light-gray-background" stylesheets="@applicationTeacherDashboard.css" text="#" textFill="#575757">
+                           <font>
+                              <Font name="Corbel Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="52.0" text="A" textFill="#575757">
+                           <font>
+                              <Font name="Corbel" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="52.0" text="B" textFill="#575757">
+                           <font>
+                              <Font name="Corbel" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="52.0" text="C" textFill="#575757">
+                           <font>
+                              <Font name="Corbel" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="52.0" text="D" textFill="#575757">
+                           <font>
+                              <Font name="Corbel" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="52.0" text="E" textFill="#575757">
+                           <font>
+                              <Font name="Corbel" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="52.0" text="F" textFill="#575757">
+                           <font>
+                              <Font name="Corbel" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="52.0" text="G" textFill="#575757">
+                           <font>
+                              <Font name="Corbel" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="52.0" text="H" textFill="#575757">
+                           <font>
+                              <Font name="Corbel" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="52.0" text="I" textFill="#575757">
+                           <font>
+                              <Font name="Corbel" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="52.0" text="J" textFill="#575757">
+                           <font>
+                              <Font name="Corbel" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="52.0" text="K" textFill="#575757">
+                           <font>
+                              <Font name="Corbel" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="52.0" text="L" textFill="#575757">
+                           <font>
+                              <Font name="Corbel" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="52.0" text="M" textFill="#575757">
+                           <font>
+                              <Font name="Corbel" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="52.0" text="N" textFill="#575757">
+                           <font>
+                              <Font name="Corbel" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="52.0" text="O" textFill="#575757">
+                           <font>
+                              <Font name="Corbel" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="26.0" prefWidth="52.0" text="P" textFill="#575757">
+                           <font>
+                              <Font name="Corbel" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

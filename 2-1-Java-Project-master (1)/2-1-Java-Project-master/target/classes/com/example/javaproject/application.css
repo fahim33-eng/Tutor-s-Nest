@@ -1,0 +1,32 @@
+
+.root {
+    -fx-background-color : #000;
+}
+#body {
+    -fx-display : flex;
+    -fx-justify-content : center;
+    -fx-align-items : center;
+    -fx-text-fill : #000
+}
+image {
+    -fx-width: 100%;
+    -fx-height: auto;
+}
+#imageFrame {
+    -fx-width: 100%;
+    -fx-height: auto;
+}
+
+#pane2{
+    -fx-background-image: url("/home/student/Downloads/2-1-Java-Project-master/src/main/resources/com/example/javaproject/letsgetstartedPICS/bg2.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 506;
+    -fx-background-position: center;
+}
+
+#LetsGetStartedButton{
+    -fx-background-color: #AAA;
+    -fx-text-fill : "black"
+}
+
+

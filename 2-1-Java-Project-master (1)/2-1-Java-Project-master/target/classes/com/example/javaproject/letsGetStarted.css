@@ -1,0 +1,11 @@
+#btn {
+            -fx-background-color: #5A555F;
+            -fx-border: none;
+            -fx-color: black;
+            -fx-padding: 15px 32px;
+            -fx-text-align: center;
+            -fx-text-decoration: none;
+            -fx-display: inline-block;
+            -fx-cursor: pointer;
+            -fx-border-radius: 25px;
+}

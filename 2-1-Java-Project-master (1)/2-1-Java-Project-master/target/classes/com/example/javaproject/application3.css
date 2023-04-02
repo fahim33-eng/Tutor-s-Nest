@@ -1,0 +1,22 @@
+#signUpBtn {
+    -fx-background-color: #7FCDCD;
+    -fx-border: none;
+    -fx-color: white;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-cursor: pointer;
+    -fx-border-radius: 25px;
+}
+
+#loginBtn {
+    -fx-background-color: #BB5533;
+    -fx-border: none;
+    -fx-color: black;
+    -fx-padding: 15px 32px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-cursor: pointer;
+    -fx-border-radius: 25px;
+}
